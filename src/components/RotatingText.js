@@ -1,6 +1,4 @@
 // src/components/RotatingText.js
-"use client";
-
 import {
   forwardRef,
   useCallback,
