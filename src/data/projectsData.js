@@ -1,4 +1,3 @@
-import { profileData } from './profileData';
 export const projects = [
   {
     id: 1,

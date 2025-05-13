@@ -5,7 +5,7 @@ import React, {
     forwardRef, useImperativeHandle
 } from 'react';
 import { useFrame, useLoader, useThree } from '@react-three/fiber';
-import { OrbitControls, Sphere, Plane, Html } from '@react-three/drei'; 
+import { OrbitControls, Html } from '@react-three/drei'; 
 import * as THREE from 'three';
 import { useSpring, animated } from '@react-spring/three';
 
