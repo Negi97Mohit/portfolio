@@ -245,7 +245,9 @@ function AnimatedSectionWindow({
 
 // --- Main Scene Component ---
 const PortfolioScene = forwardRef(({ sections }, ref) => {
-    const safeSections = Array.isArray(sections) ? sections : [];
+const safeSections = useMemo(() => {
+  return Array.isArray(sections) ? sections : [];
+}, [sections]);
     const numSections = safeSections.length;
     const orbitRadius = 3.6; 
     const angleStep = numSections > 0 ? (Math.PI * 2) / numSections : 0;
