@@ -1,0 +1,42 @@
+/* src/components/RotatingText.css */
+.text-rotate {
+  display: flex; /* Aligns elements (words/characters) in a row */
+  flex-wrap: wrap; /* Allows wrapping if content is too long */
+  white-space: pre-wrap; /* Preserves spaces and allows wrapping */
+  position: relative; /* For absolute positioning of sr-only text */
+}
+
+/* Accessibility: Hides text visually but keeps it available for screen readers */
+.text-rotate-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Styling for the container of each word (if splitBy characters) or each part */
+.text-rotate-word {
+  display: inline-flex; /* Ensures characters within a word stay together */
+}
+
+/* Styling for when text is split by lines */
+.text-rotate-lines {
+  display: flex;
+  flex-direction: column; /* Stacks lines vertically */
+  width: 100%; /* Ensures lines take full width if needed */
+}
+
+/* Styling for each individual animated element (character, word, or line) */
+.text-rotate-element {
+  display: inline-block; /* Necessary for transformations like 'y' */
+}
+
+/* Styling for the space character, ensuring it's preserved */
+.text-rotate-space {
+  white-space: pre; /* Preserves the space character */
+}

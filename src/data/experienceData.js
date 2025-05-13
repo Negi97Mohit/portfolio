@@ -1,0 +1,46 @@
+export const experience = [
+  {
+    id: 1,
+    role: "AI Creator",
+    company: "fujm.org",
+    location: "Boston, MA, USA",
+    duration: "Feb 2024 - Present",
+    description: [
+      "Launched a GenAI-powered job platform using MERN stack (MongoDB, Express, React, Node.js), utilizing React for frontend and Node.js/Express for backend, hosted on Netlify framework.",
+      "Utilized Firebase RDMS, OAuth authentication, hooks, and analytics under Google's Startup Program to minimize operational costs.",
+      "Incorporated Groq's GenAI models into the backend to analyze user profiles, RAGs, and provide match percentages against jobs.",
+      "Developed the AI Screen Reader Chrome extension – Scans the window and answers user questions using GPTs.",
+      "Built Prompt Browsing tool for speech-to-text automation and universal web scraping with AI for input-based DOM pre-Op and final results generation.",
+      "Launched WallofShade – A Social Accountability Platform, available at: https://wallofshade.netlify.app/",
+    ],
+  },
+  {
+    id: 2,
+    role: "Software Engineer QA",
+    company: "Dassault Systems",
+    location: "Boston, MA, USA",
+    duration: "Aug 2022 - Dec 2023",
+    description: [
+      "Reduced product release and data extraction time by 97% through the development and deployment of 7+ automation scripts for Smoke, Exploratory, Sanity, Integration, and Performance testing within CI/CD pipelines utilizing Python, TypeScript, and Bash.",
+      "Developed and presented new QA automation POC with if-else cases to ENOVIA Global QA team, reducing script work time and achieving 100% completion rate with performance metrics and tracking KPIs for failed steps.",
+      "Automated regression tests using Selenium WebDriver and TypeScript, reducing testing time by 30% and improving overall efficiency of product lifecycle.",
+      "Created ETL pipeline for data extraction, cleaning, and ingestion for QA test cases to thoroughly test company-wide cases.",
+      "Built script monitoring dashboards in JavaScript, PHP, and SQL to display script performance metrics on tools such as SAHI and CAFET.",
+      "Developed version control POC for iOS systems to complement existing Windows and Linux version control using C#.",
+      "Reduced user creation time by 67% by creating and deploying Python Selenium automations in Jenkins.",
+      "Participated in daily SCRUMs with the global team to align prioritization and QA tasks with global teams.",
+    ],
+  },
+  {
+    id: 3,
+    role: "Investment Sales Analyst",
+    company: "Huf Group",
+    location: "Pune, MH, India",
+    duration: "Nov 2018 - Nov 2020",
+    description: [
+      "Secured $15M in contracts from Mahindra & Mahindra, Volvo, and Vinfast by collaborating with cross-functional global teams to create fresh marketing strategies and identify opportunities for growth based on cost data.",
+      "Acquired $6.2M in contracts and increased market share by 18% by forecasting data to analyze business cases and market research, and creating roadmaps for market share expansion.",
+      "Facilitated growth by executing market research analysis and developing SQL database for stakeholders to identify and optimize product pricing, improving market strategy.",
+    ],
+  },
+];
